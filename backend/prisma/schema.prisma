@@ -1,0 +1,87 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Profile {
+  id          String       @id
+  name        String
+  role        String
+  location    String
+  description String
+  email       String
+  education   String
+  languages   String
+  links       Link[]
+  skills      Skill[]
+  experience  Experience[]
+  projects    Project[]
+}
+
+model Link {
+  id        Int     @id @default(autoincrement())
+  label     String
+  url       String
+  order     Int
+  profileId String
+  profile   Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+
+  @@index([profileId, order])
+}
+
+model Skill {
+  id        Int     @id @default(autoincrement())
+  name      String
+  category  String
+  order     Int
+  profileId String
+  profile   Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+
+  @@index([profileId, order])
+}
+
+model Experience {
+  id           Int           @id @default(autoincrement())
+  company      String
+  position     String
+  period       String
+  startDate    String
+  endDate      String?
+  stack        String
+  order        Int
+  achievements Achievement[]
+  profileId    String
+  profile      Profile       @relation(fields: [profileId], references: [id], onDelete: Cascade)
+
+  @@index([profileId, order])
+}
+
+model Achievement {
+  id           Int        @id @default(autoincrement())
+  text         String
+  order        Int
+  experienceId Int
+  experience   Experience @relation(fields: [experienceId], references: [id], onDelete: Cascade)
+
+  @@index([experienceId, order])
+}
+
+model Project {
+  id          Int     @id @default(autoincrement())
+  name        String
+  url         String
+  category    String
+  description String
+  result      String
+  stack       String
+  visual      String
+  order       Int
+  profileId   String
+  profile     Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+
+  @@index([profileId, order])
+}

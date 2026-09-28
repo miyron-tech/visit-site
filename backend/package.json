@@ -1,0 +1,35 @@
+{
+  "name": "vlad-profile-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate": "prisma generate",
+    "build": "prisma generate && tsc",
+    "db:prepare": "prisma migrate deploy && node dist/seed.js",
+    "start": "npm run db:prepare && node dist/main.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.0.0",
+    "@as-integrations/express5": "^1.1.0",
+    "@nestjs/apollo": "^13.2.0",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/graphql": "^13.2.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "@prisma/client": "6.19.0",
+    "express": "^5.1.0",
+    "graphql": "^16.11.0",
+    "prisma": "6.19.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "typescript": "~5.7.2"
+  },
+  "overrides": {
+    "effect": "^3.20.0",
+    "deepmerge-ts": "^8.0.0"
+  }
+}

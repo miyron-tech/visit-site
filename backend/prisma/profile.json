@@ -1,0 +1,258 @@
+{
+  "name": "Vlad Zakalyuzhnyy",
+  "role": "Senior Backend Developer",
+  "location": "Астана, Казахстан",
+  "description": "Backend-разработчик с 6 годами коммерческого опыта. Проектирую и развиваю микросервисы на Node.js и TypeScript: от платёжных шлюзов и AI-телефонии до блокчейн-инфраструктуры. Мой фокус: производительность, надёжность и понятная архитектура.",
+  "email": "vladuslavdoncov@mail.ru",
+  "education": "ALMAU - IT, Data Science - 2023",
+  "languages": "Русский: родной - English: B2",
+  "links": [
+    {
+      "label": "Telegram",
+      "url": "https://t.me/M_MiyRon"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:vladuslavdoncov@mail.ru"
+    }
+  ],
+  "skills": [
+    {
+      "name": "TypeScript",
+      "category": "Backend"
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend"
+    },
+    {
+      "name": "NestJS",
+      "category": "Backend"
+    },
+    {
+      "name": "Go",
+      "category": "Backend"
+    },
+    {
+      "name": "JavaScript",
+      "category": "Backend"
+    },
+    {
+      "name": "Express.js",
+      "category": "Backend"
+    },
+    {
+      "name": "GraphQL",
+      "category": "Backend"
+    },
+    {
+      "name": "gRPC",
+      "category": "Backend"
+    },
+    {
+      "name": "WebSocket",
+      "category": "Backend"
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Data & messaging"
+    },
+    {
+      "name": "Redis",
+      "category": "Data & messaging"
+    },
+    {
+      "name": "MongoDB",
+      "category": "Data & messaging"
+    },
+    {
+      "name": "ClickHouse",
+      "category": "Data & messaging"
+    },
+    {
+      "name": "MySQL",
+      "category": "Data & messaging"
+    },
+    {
+      "name": "Elasticsearch",
+      "category": "Data & messaging"
+    },
+    {
+      "name": "Apache Kafka",
+      "category": "Data & messaging"
+    },
+    {
+      "name": "RabbitMQ",
+      "category": "Data & messaging"
+    },
+    {
+      "name": "Git",
+      "category": "Infrastructure"
+    },
+    {
+      "name": "Docker",
+      "category": "Infrastructure"
+    },
+    {
+      "name": "Kubernetes",
+      "category": "Infrastructure"
+    },
+    {
+      "name": "AWS",
+      "category": "Infrastructure"
+    },
+    {
+      "name": "GitLab CI",
+      "category": "Infrastructure"
+    },
+    {
+      "name": "Jenkins",
+      "category": "Infrastructure"
+    },
+    {
+      "name": "Linux",
+      "category": "Infrastructure"
+    },
+    {
+      "name": "CI/CD",
+      "category": "Infrastructure"
+    },
+    {
+      "name": "Prometheus",
+      "category": "Reliability & Web3"
+    },
+    {
+      "name": "Grafana",
+      "category": "Reliability & Web3"
+    },
+    {
+      "name": "ELK",
+      "category": "Reliability & Web3"
+    },
+    {
+      "name": "Zabbix",
+      "category": "Reliability & Web3"
+    },
+    {
+      "name": "Jest",
+      "category": "Reliability & Web3"
+    },
+    {
+      "name": "Solidity",
+      "category": "Reliability & Web3"
+    },
+    {
+      "name": "ethers.js",
+      "category": "Reliability & Web3"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Paycot",
+      "position": "Senior Backend Engineer",
+      "period": "С июля 2026 по настоящее время",
+      "startDate": "2026-07",
+      "endDate": null,
+      "stack": "Node.js - TypeScript - Go",
+      "achievements": [
+        "Разрабатываю и поддерживаю backend платёжного шлюза paycot.com.",
+        "Настраиваю мониторинг, расследую и устраняю проблемы безопасности.",
+        "Пишу и оптимизирую смарт-контракты для токенизации реальных активов (RWA)."
+      ]
+    },
+    {
+      "company": "KAZ.ONE.LABS",
+      "position": "Backend Developer - Node.js / Blockchain",
+      "period": "С ноября 2025 по июль 2026",
+      "startDate": "2025-11",
+      "endDate": "2026-07",
+      "stack": "NestJS - TypeScript - Go - PostgreSQL - Redis - MongoDB - Docker - AWS",
+      "achievements": [
+        "Разрабатывал backend on-chain приложений EVM-совместимого блокчейна Orgon: Orgonscan, Orgon Forge и Oris.",
+        "Создал индексатор блокчейна, API для dApp, авторизацию по криптографической подписи и интеграции с кошельками.",
+        "Сократил время ответа Orgonscan на 27% и увеличил пропускную способность на 12,7%.",
+        "Реализовал rate limiting, валидацию, логирование и мониторинг; деплоил сервисы в AWS EC2 и RDS."
+      ]
+    },
+    {
+      "company": "LIVIN",
+      "position": "Backend Developer - NestJS",
+      "period": "С февраля 2025 по октябрь 2025",
+      "startDate": "2025-02",
+      "endDate": "2025-10",
+      "stack": "TypeScript - NestJS - PostgreSQL - Redis - RabbitMQ - gRPC - GraphQL - Docker",
+      "achievements": [
+        "Разрабатывал высоконагруженные REST, GraphQL, gRPC и WebSocket сервисы.",
+        "Интегрировал FreedomPay, Google Pay и Pyth Network.",
+        "Ускорил PostgreSQL на 17% за счёт профилирования тяжёлых запросов.",
+        "Снизил расходы на API и инфраструктуру на 50% с помощью Redis и batch-запросов; проводил онбординг разработчиков."
+      ]
+    },
+    {
+      "company": "Automated Communication Solutions",
+      "position": "Node.js Backend Developer",
+      "period": "С марта 2023 по январь 2025",
+      "startDate": "2023-03",
+      "endDate": "2025-01",
+      "stack": "Node.js - NestJS - Go - Kafka - PostgreSQL - ClickHouse - Kubernetes",
+      "achievements": [
+        "Разрабатывал высоконагруженную логику AI-ботов для телефонии, интегрировал Asterisk и Yandex TTS.",
+        "Внедрил Kafka для асинхронного обмена между микросервисами.",
+        "Ускорил PostgreSQL на 47%: профилирование запросов, индексы и пересмотр структуры БД.",
+        "Интегрировал Halyk Bank и Kaspi; вместе с DevOps настраивал ELK и Zabbix, разбирал инциденты и ускорял деплой."
+      ]
+    },
+    {
+      "company": "Creators.Prod.House",
+      "position": "Backend Developer - Node.js / NestJS",
+      "period": "С октября 2020 по февраль 2023",
+      "startDate": "2020-10",
+      "endDate": "2023-02",
+      "stack": "Node.js - TypeScript - NestJS - PostgreSQL - Redis - Docker - GitLab CI",
+      "achievements": [
+        "Развивал микросервисную архитектуру на NestJS и Express с отдельными сервисами Laravel и FastAPI.",
+        "Внедрил TypeScript в кодовую базу и хранение refresh-токенов JWT в Redis.",
+        "Настроил CI/CD на GitLab CI и Jenkins, сборку Docker-образов через Kaniko.",
+        "Интегрировал FreedomPay, Stripe и Google Pay; проводил технические собеседования и формировал стандарты кода."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Orgonscan",
+      "url": "https://orgonscan.org",
+      "category": "Blockchain explorer",
+      "description": "Индексатор и API для EVM-блокчейна Orgon. Параллельная обработка on-chain данных, оптимизация индексов и интеграции с кошельками.",
+      "result": "−27% времени ответа API",
+      "stack": "NestJS / Go / PostgreSQL",
+      "visual": "chain"
+    },
+    {
+      "name": "Paycot",
+      "url": "https://paycot.com",
+      "category": "Payment infrastructure",
+      "description": "Backend платёжного шлюза. Мониторинг, безопасность и смарт-контракты для токенизации реальных активов.",
+      "result": "Платежи и RWA-токенизация",
+      "stack": "Node.js / TypeScript / Go",
+      "visual": "payment"
+    },
+    {
+      "name": "Orgon Forge",
+      "url": "https://forge.orgon.space",
+      "category": "Token infrastructure",
+      "description": "Участие в разработке backend платформы выпуска токенов в экосистеме Orgon.",
+      "result": "EVM-совместимая инфраструктура",
+      "stack": "NestJS / TypeScript / ethers.js",
+      "visual": "forge"
+    },
+    {
+      "name": "Oris",
+      "url": "https://oris.space",
+      "category": "Telegram Mini App",
+      "description": "Backend кошелька в формате Telegram Mini App. Авторизация по криптографической подписи и взаимодействие с блокчейном.",
+      "result": "Кошелёк внутри Telegram",
+      "stack": "TypeScript / NestJS / Web3",
+      "visual": "wallet"
+    }
+  ]
+}

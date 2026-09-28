@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "npm ci && npm --prefix backend ci",
+  "buildCommand": "npm run build && npm run vercel:api",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/graphql.js": {
+      "includeFiles": "backend/{dist/**,prisma/profile.db,node_modules/.prisma/client/**}"
+    }
+  },
+  "rewrites": [
+    { "source": "/graphql", "destination": "/api/graphql" },
+    { "source": "/health", "destination": "/api/graphql" }
+  ]
+}

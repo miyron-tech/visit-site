@@ -10,6 +10,7 @@
     "api:install": "npm --prefix backend install",
     "api:build": "npm --prefix backend run build",
     "api:start": "npm --prefix backend start",
+    "vercel:api": "cd backend && export DATABASE_URL=file:./profile.db && npm run build && npx prisma migrate deploy && node dist/seed.js",
     "docker:up": "docker compose up --build -d"
   },
   "dependencies": {
